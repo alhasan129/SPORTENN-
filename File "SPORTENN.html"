@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPORTENN Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #ff4500;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0 0;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ff6347;
+        }
+        section {
+            padding: 2rem;
+        }
+        .about, .blog, .contact {
+            background-color: #ffe4e1;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            padding: 2rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #ff4500;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SPORTENN</h1>
+    <p>Your go-to blog for all things sports and entertainment</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="about">
+    <h2>About SPORTENN</h2>
+    <p>Welcome to SPORTENN, where we blend the worlds of sports and entertainment with vibrant commentary and insights. Stay tuned for our latest articles and features!</p>
+</section>
+
+<section id="blog" class="blog">
+    <h2>Latest Blog Posts</h2>
+    <p>Check back soon for new articles!</p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Have a question or want to get in touch? Reach us at <a href="mailto:contact
